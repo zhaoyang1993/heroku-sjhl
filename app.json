@@ -19,12 +19,12 @@
 		"RCLONE_DESTINATION": {
 			"description": "Rclone destination path, format \"[drivename A]:[remove path A]\"",
 			"required": false,
-			"value": "sjhl:tmp"
+			"value": "sjhl:/"
 		},
 		"RCLONE_DESTINATION_2": {
 			"description": "If you mount a second cloud drive, then fill in \"[drivename B]:[remove path B]\"",
 			"required": false,
-			"value": "remote:tmp"
+			"value": "remote:/"
 		}
 	},
 	"buildpacks": [
